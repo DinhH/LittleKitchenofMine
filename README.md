@@ -1,3 +1,3 @@
-toBuyList
+The Little Kitchen of Mine
 =========
- A list of things I need to buy, you are more than welcome to buy it/them for me. 
+ A list of some of my favorite recipes of all time!!
