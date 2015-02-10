@@ -31,12 +31,12 @@ app.controller('ItemsController',
       type: 'Entrees',
       img: 'images/pasta1.jpg',
       //bought: true
-    }, {
+    }, /*{
         name: 'Personal Blog',
       link: 'blog.html',
       type: 'Blog',
       img: 'images/blog-icon.png', 
-    }, {
+    },*/ {
 
       name: 'Vegan Granola-Pancakes',
       //price: 4,
