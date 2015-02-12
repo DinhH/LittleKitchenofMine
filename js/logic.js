@@ -53,7 +53,39 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/pandan-chiffon.JPG',
       //bought: true
-    }, 
+    }, {
+      name: 'Hasselback Potatoes',
+      rating: '★★★★',
+      //price: 23.99,
+      link: 'http://scarlettabakes.com/baby-ancho-hasselback-potatoes-a-giveaway/',
+      type: 'Entrees',
+      img: 'images/HP.JPG',
+      //bought: true
+    },  {
+      name: 'Sticky Rice With Mango',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://www.chasingsomebluesky.blogspot.com/2013/02/thai-sticky-rice-with-mango.html',
+      type: 'Deserts',
+      img: 'images/rice+mango.JPG',
+      //bought: true
+    },  {
+      name: 'Cittrus Panna Cotta',
+      rating: '★★★★',
+      //price: 23.99,
+      link: 'http://www.greedygourmet.com/recipes-by-cooking-times/30-mins-or-less/citrus-panna-cotta/',
+      type: 'Deserts',
+      img: 'images/panacota.JPG',
+      //bought: true
+    },  {
+      name: 'Baked Kale Chips',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://www.lemonandmocha.com/2014/01/21/crispy-baked-kale-chips/',
+      type: 'Snacks',
+      img: 'images/kale.JPG',
+      //bought: true
+    },
     
     ];
   });
