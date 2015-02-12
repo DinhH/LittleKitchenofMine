@@ -59,7 +59,7 @@ app.controller('ItemsController',
       //price: 23.99,
       link: 'http://scarlettabakes.com/baby-ancho-hasselback-potatoes-a-giveaway/',
       type: 'Entrees',
-      img: 'images/HP.JPG',
+      img: 'images/HP.jpg',
       //bought: true
     },  {
       name: 'Sticky Rice With Mango',
@@ -67,7 +67,7 @@ app.controller('ItemsController',
       //price: 23.99,
       link: 'http://www.chasingsomebluesky.blogspot.com/2013/02/thai-sticky-rice-with-mango.html',
       type: 'Deserts',
-      img: 'images/rice+mango.JPG',
+      img: 'images/rice+mango.jpg',
       //bought: true
     },  {
       name: 'Cittrus Panna Cotta',
@@ -75,7 +75,7 @@ app.controller('ItemsController',
       //price: 23.99,
       link: 'http://www.greedygourmet.com/recipes-by-cooking-times/30-mins-or-less/citrus-panna-cotta/',
       type: 'Deserts',
-      img: 'images/panacota.JPG',
+      img: 'images/panacota.jpg',
       //bought: true
     },  {
       name: 'Baked Kale Chips',
@@ -83,7 +83,7 @@ app.controller('ItemsController',
       //price: 23.99,
       link: 'http://www.lemonandmocha.com/2014/01/21/crispy-baked-kale-chips/',
       type: 'Snacks',
-      img: 'images/kale.JPG',
+      img: 'images/kale.jpg',
       //bought: true
     },
     
