@@ -53,7 +53,7 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/pandan-chiffon.JPG',
       //bought: true
-    }, {
+    }, /*{
       name: 'Hasselback Potatoes',
       rating: '★★★★',
       //price: 23.99,
@@ -85,7 +85,7 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/kale.JPG',
       //bought: true
-    },
+    },*/
     
     ];
   });
