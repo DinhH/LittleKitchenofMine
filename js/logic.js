@@ -4,7 +4,7 @@ app.controller('ItemsController',
 
   function ItemsController($scope) {
     // $scope.types = ['office', 'music', 'apartment'];
-    $scope.types = ['Breakfasts', 'Entrees', 'Deserts', 'Snacks', 'Blog'];
+    $scope.types = ['Breakfasts', 'Entrees', 'Deserts', 'Snacks', /*'Blog'*/];
 
     $scope.items = [{
        name: 'Spaghetti Aglio Olio',
