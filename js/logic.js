@@ -85,6 +85,14 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/kale.jpg',
       //bought: true
+    },  {
+      name: 'Vanilla Bean Cupcakes',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://www.foodbymars.com/home/2015/pisces-birthday-post-recipe-vanilla-bean-cupcakes-with-pistachio-buttercream',
+      type: 'Snacks',
+      img: 'images/cupcakes.jpeg',
+      //bought: true
     },
     
     ];
