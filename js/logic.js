@@ -93,6 +93,14 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/cupcakes.jpeg',
       //bought: true
+    },  {
+      name: 'Coliflower Mashed Potatoes',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://www.greatfoodlifestyle.com/mashed-potatoes-and-cauliflower-low-fat-low-glycemic/',
+      type: 'Entrees',
+      img: 'images/Cauli-Potatoes.jpg',
+      //bought: true
     },
     
     ];
