@@ -109,6 +109,14 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/Cookies4.jpg',
       //bought: true
+    },  {
+      name: 'Crepes with Meyer Lemon Curd and Berries',
+      rating: '★★★★',
+      //price: 23.99,
+      link: 'http://saltandwind.com/recipes/162-crepes-with-meyer-lemon-curd-and-berries-recipe',
+      type: 'Snacks',
+      img: 'images/crepes.jpg',
+      //bought: true
     },
     
     ];
