@@ -101,6 +101,14 @@ app.controller('ItemsController',
       type: 'Entrees',
       img: 'images/Cauli-Potatoes.jpg',
       //bought: true
+    },  {
+      name: 'FERRERO ROCHER COOKIES',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://portandfin.com/ferrero-rocher-cookies/',
+      type: 'Snacks',
+      img: 'images/Cookies4.jpg',
+      //bought: true
     },
     
     ];
