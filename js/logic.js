@@ -117,6 +117,14 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/crepes.jpg',
       //bought: true
+    },  {
+      name: 'Vegetarian Breakfast Sandwich',
+      rating: '★★★★',
+      //price: 23.99,
+      link: 'http://www.abalanceoftastes.com/blog/2015/1/4/vegetarian-breakfast-sandwich',
+      type: 'Entrees',
+      img: 'images/veggie.jpeg',
+      //bought: true
     },
     
     ];
