@@ -125,7 +125,16 @@ app.controller('ItemsController',
       type: 'Entrees',
       img: 'images/veggie.jpeg',
       //bought: true
+    },   {
+      name: 'Mushroom Pate',
+      rating: '★★★',
+      //price: 23.99,
+      link: 'http://myvega.com/vega-life/recipe-center/mushroom-pate/',
+      type: 'Snacks',
+      img: 'images/pate.jpg',
+      //bought: true
     },
+
     
     ];
   });
