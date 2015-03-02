@@ -133,7 +133,16 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/pate.jpg',
       //bought: true
+    },  {
+      name: 'Braided Bread with Strawberry and Cream Cheese Filling',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://ohsweetday.com/2015/02/braided-bread-with-strawberry-and-cream-cheese-filling.html',
+      type: 'Snacks',
+      img: 'images/bread.jpg',
+      //bought: true
     },
+
 
     
     ];
