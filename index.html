@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <title>The Little Kitchen of Mine</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h3 > 
+        The Little Kitchen of Mine 
+        <a id="pop" rel="popover" data-placement="bottom" data-container="body" data-content="Made with passion, AngularJS & MixItUp" class="info"> Little about this site</a> 
+      </h3>
+      <div>
+        <p> a list of some of my favorite recipies! </p>
+        <!--<div class="totalAmount"> Total: <span id="amount"> $34,000</span></div>-->
+      </div>
+    </div>
+    <div  ng-controller="ItemsController">
+      <div class="controls">
+        <button class="btn btn-default filter" data-filter="all">all</button>
+        <button class="btn btn-default filter" data-filter=".category-{{type}}" ng-repeat="type in types">{{type}}</button>
+        <!-- <button class="btn btn-default sort" data-sort="myorder:asc">Breakfasts</button>
+        <button class="btn btn-default sort" data-sort="myorder:desc">Entrees</button>
+        <button class="btn btn-default sort" data-sort="myorder:desc">Deserts</button>
+        <button class="btn btn-default sort" data-sort="myrder:desc">Snacks</button> -->
+
+      </div>
+      <div class="test">
+        <div id="showing" class="mixContainer">
+          <div class="row">
+            <div class="mix category-{{item.type}}" data-myorder="{{item.price}}" ng-repeat="item in items">
+              <a ng-href="{{item.link}}">{{item.name}}
+                <img class="thumbnail" ng-src="{{item.img}}">
+                <!--<div class="price"> {{item.price | currency }}</div>-->
+                <div class="rating"> {{item.rating}}<!-- <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> --></div>
+                <div class="date"> {{item.date}}</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer"> <!-- All recipies are credited to the original creators! -->
+    <div class="container">
+      <p class="text-muted">&copy; 2015 by <a href="http://dinhh.github.io"> Dinh Huynh | Food enthusiast with a dream to open her own restaurant </a></p>
+    </div>
+  </div>
+  <!-- <div id="footer">
+    <div class="container"> All recipies are credited to the original creators!
+      <p class="text-muted">&copy; 2015 by <a href="http://dinhh.github.io"> Dinh Huynh | Food enthusiast with a dream to open her own restaurant </a></p>
+    </div>
+  </div> -->
+
+</body>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/angular.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <script type="text/javascript" src="js/angular-masonry.js"></script>
+  <script type="text/javascript" src="js/logic.js"></script>
+</html>
