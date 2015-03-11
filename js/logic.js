@@ -141,6 +141,22 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/bread.jpg',
       //bought: true
+    },   {
+      name: 'Blueberry Almond Granola',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://reciperunner.com/blueberry-almond-granola/',
+      type: 'Snacks',
+      img: 'images/granola.jpg',
+      //bought: true
+    },   {
+      name: 'Cauliflower and Sweet Pea Pasta',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://www.wheatgrassandwine.com/cauliflower-pea-pasta/',
+      type: 'Entrees',
+      img: 'images/pasta4.jpg',
+      //bought: true
     },
 
 
