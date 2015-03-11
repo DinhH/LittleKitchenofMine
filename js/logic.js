@@ -147,7 +147,7 @@ app.controller('ItemsController',
       //price: 23.99,
       link: 'http://reciperunner.com/blueberry-almond-granola/',
       type: 'Snacks',
-      img: 'images/granola.jpg',
+      img: 'images/Granola3.jpg',
       //bought: true
     },   {
       name: 'Cauliflower and Sweet Pea Pasta',
