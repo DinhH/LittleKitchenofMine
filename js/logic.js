@@ -1,4 +1,4 @@
-var app = angular.module('app', ['wu.masonry']);
+app = angular.module('app', ['wu.masonry']);
 
 app.controller('ItemsController',
 
