@@ -6,8 +6,6 @@ I am just a programmer with a dream to become a chef!! I have a passion for cook
 
 This is a list of some of my favorite recipes of all time!!
 
-A list of some of my favorite recipes of all time!!
-
 I hope you enjoy these recipes as much as I do!!
 [CHECK IT OUT!] (https://dinhh.github.io/LittleKitchenofMine)
 
