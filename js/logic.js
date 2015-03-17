@@ -1,4 +1,4 @@
-var app = angular.module('app', ['wu.masonry']);
+app = angular.module('app', ['wu.masonry']);
 
 app.controller('ItemsController',
 
@@ -118,6 +118,14 @@ app.controller('ItemsController',
       img: 'images/crepes.jpg',
       //bought: true
     },  {
+      name: 'French macaroon',
+      rating: '★★★★★',
+      //price: 23.99,
+      link: 'http://www.namthip.com/2009/06/i-heart-u-french-macaroon.html',
+      type: 'Deserts',
+      img: 'images/macaroons.jpg',
+      //bought: true
+    },  {
       name: 'Vegetarian Breakfast Sandwich',
       rating: '★★★★',
       //price: 23.99,
@@ -141,13 +149,21 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/bread.jpg',
       //bought: true
+<<<<<<< HEAD
     },  {
+=======
+    },   {
+>>>>>>> gh-pages
       name: 'Blueberry Almond Granola',
       rating: '★★★★★',
       //price: 23.99,
       link: 'http://reciperunner.com/blueberry-almond-granola/',
       type: 'Snacks',
+<<<<<<< HEAD
       img: 'images/granola.jpg',
+=======
+      img: 'images/Granola3.jpg',
+>>>>>>> gh-pages
       //bought: true
     },   {
       name: 'Cauliflower and Sweet Pea Pasta',
