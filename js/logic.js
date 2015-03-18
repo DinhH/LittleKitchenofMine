@@ -149,21 +149,13 @@ app.controller('ItemsController',
       type: 'Snacks',
       img: 'images/bread.jpg',
       //bought: true
-<<<<<<< HEAD
     },  {
-=======
-    },   {
->>>>>>> gh-pages
       name: 'Blueberry Almond Granola',
       rating: '★★★★★',
       //price: 23.99,
       link: 'http://reciperunner.com/blueberry-almond-granola/',
       type: 'Snacks',
-<<<<<<< HEAD
-      img: 'images/granola.jpg',
-=======
       img: 'images/Granola3.jpg',
->>>>>>> gh-pages
       //bought: true
     },   {
       name: 'Cauliflower and Sweet Pea Pasta',
